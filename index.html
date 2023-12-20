@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Projeto Aplicativo</title>
     <link href="style.css" rel="stylesheet" >
+    <link href="calculator.css" rel="stylesheet">
 </head>
   <body>
 
@@ -18,15 +19,15 @@
         </div>
 
         <div class="sidebar">
-            <ion-icon name="home-outline"></ion-icon>
-            <ion-icon name="calculator-outline"></ion-icon>
-            <ion-icon name="pricetag-outline"></ion-icon>
+            <ion-icon name="home-outline" title="Início"></ion-icon>
+            <ion-icon name="calculator-outline" title="Calculadora"></ion-icon>
+            <ion-icon name="pricetag-outline" title="Melhores Preços"></ion-icon>
             <ion-icon name="calendar-number-outline"></ion-icon>
-            <ion-icon name="list-outline"></ion-icon>
+            <ion-icon name="list-outline" title="Lista"></ion-icon>
         </div>
 
         <div class="container-content">
-          <div class="home">
+          <div class="home active">
               <img src="https://img.freepik.com/vetores-gratis/vetor-de-gradiente-de-logotipo-colorido-de-passaro_343694-1365.jpg?size=338&ext=jpg&ga=GA1.1.1546980028.1702857600&semt=ais"/>
               <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/LEGO_logo.svg/768px-LEGO_logo.svg.png"/>
               <img src="https://img.freepik.com/vetores-gratis/modelo-de-design-de-caneta-de-pena-gradiente_23-2149837194.jpg?w=740&t=st=1702957737~exp=1702958337~hmac=913982744e52bf6061bb95aa8d192ba26c5164caefc067fde0b7550fb21f80ac"/>
@@ -37,8 +38,42 @@
 
           
         <div class="calculator disable">
-          
-        </div>
+          <div class="visor">
+            <div>0</div>
+          </div>
+          <div class="botoes">
+              <div>
+                <button class="otherButtons">C</button>
+                <button class="otherButtons">%</button>
+                <button class="otherButtons">/</button>
+                <button class="otherButtons"><ion-icon name="backspace-outline"></ion-icon></button>
+              </div>
+              <div>
+                <button>7</button>
+                <button>8</button>
+                <button>9</button>
+                <button class="otherButtons">X</button>
+              </div>
+              <div>
+                <button>4</button>
+                <button>5</button>
+                <button>6</button>
+                <button class="otherButtons">-</button>
+              </div>
+              <div>
+                <button>1</button>
+                <button>2</button>
+                <button>3</button>
+                <button class="otherButtons">+</button>
+              </div>
+              <div>
+                <button>#</button>
+                <button>0</button>
+                <button>,</button>
+                <button class="iqual">=</button>
+              </div>
+            </div>
+          </div>
 
         </div>
 

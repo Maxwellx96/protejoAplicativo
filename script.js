@@ -28,6 +28,7 @@ homeClick.addEventListener("click", ()=>{
 calculatorClick.addEventListener("click", ()=>{
     if(calculatorContent.classList[1] != undefined){
         homeContent.classList.add("disable")
+        calculatorContent.classList.add("active")
         calculatorContent.classList.remove("disable")
     }
 })

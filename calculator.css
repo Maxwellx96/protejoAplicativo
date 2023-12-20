@@ -1,0 +1,59 @@
+.calculator{
+    position: absolute;
+    top: 0;
+    background: #eeeeee;
+    border-radius: 10px;
+    border: 1px solid #e1e1e1;
+    width: 310px;
+    display: grid;
+    justify-content: center;
+}
+
+.visor {
+    border-radius: 5px;
+    width: 280px;
+}
+
+.visor div{
+    font-size: 45px;
+    padding: 0 10px 0 0;
+    color: #2c3e50;
+    text-align: right;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.botoes div{
+    padding: 10px 5px 10px 5px;
+}
+
+.botoes button{
+    cursor: pointer;
+    background: #fff;
+    box-shadow: 1px 1px 10px 1px  #c2c2c2;
+    color: #000;
+    border: none;
+    border-radius: 50%;
+    font-size: 18px;
+    text-align: center;
+    width: 65px;
+    height: 65px;
+}
+
+.botoes button:hover{
+    transform: scale(1.04);
+}
+
+.botoes ion-icon{
+    font-size: 20px;
+}
+
+.botoes .otherButtons{
+    color: #fff;
+    background:#f39c12;
+}
+
+.botoes .iqual{
+    color: #fff;
+    font-size: 30px;
+    background: #f39c12;
+}

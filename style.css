@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -6,16 +8,18 @@
 
 .active{
     scale: 1;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+    transition: all 0.6s ease-in-out;
 }
 
 .disable{
-    scale: 0;
-    transition: all 0.4s ease-in-out;
+    transform: translateX(400px);
+    opacity: 0 ;
+    transition: all 0.6s ease-in-out;
 }
 
 body{
     background: #636e72;
+    font-family: "Poppins", sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,6 +33,7 @@ body{
     width: 400px;
     height: 600px;
     padding: 12px;
+    overflow: hidden;
 }
 
 .search{
@@ -74,7 +79,7 @@ body{
 .sidebar ion-icon {
     font-size: 23px;
     margin-bottom: 30px;
-    transition: all 0.2s linear;
+    transition: all 0.5s linear;
     cursor: pointer;
 }
 
@@ -97,7 +102,7 @@ body{
 }
 
 .container-content img{
-    width: 62px;
+    width: 90px;
     border-radius: 50%;
     object-fit: cover;
     transition: all 0.3s ease-in-out;
@@ -112,9 +117,4 @@ body{
     flex-wrap: wrap;
     align-items: center;
     gap: 20px;
-}
-
-.calculator{
-    position: absolute;
-    top: 0;
 }
