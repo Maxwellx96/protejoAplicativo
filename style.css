@@ -31,7 +31,7 @@ body{
     background: #fff;
     border-radius: 15px;
     width: 400px;
-    height: 600px;
+    height: 100vh;
     padding: 12px;
     overflow: hidden;
 }
@@ -71,7 +71,7 @@ body{
 .sidebar{
     margin-top: 25px;
     width: 38px;
-    height: 520px;
+    height: 100vh;
     border-right: 1px solid #d1d2d2;
     transition: all 0.3s ease-in-out;
 }
